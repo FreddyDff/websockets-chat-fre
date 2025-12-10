@@ -10,6 +10,9 @@ import express from 'express';
 // miljövariabler /inställningar
 // ----------------------------------------------------------------------------------------------
 const app = express();
+import http from 'http';
+
+
 
 // ange en mapp som express kan använda för att leverera statiska filer
 app.use(express.static('public'));
